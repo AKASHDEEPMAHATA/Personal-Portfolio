@@ -112,7 +112,7 @@
     box-sizing: border-box;
   }
   
-  a { text-decoration: none; }
+  a { text-decoration: none; color: var(--vegas-gold); }
   
   li { list-style: none; }
   
@@ -143,6 +143,7 @@
   html { font-family: var(--ff-poppins); }
   
   body { background: var(--smoky-black); }
+
   
   
   
@@ -1422,8 +1423,8 @@
     }
   
     .testimonials-text {
-      line-clamp: 2;
-      -webkit-line-clamp: 2;
+      line-clamp: 3;
+      -webkit-line-clamp: 3;
     }
   
     /* testimonials modal */
